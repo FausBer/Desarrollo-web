@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+body{
+	font-family: 'Staatliches', cursive;
+}
+.menu-fixed {
+	position:fixed;
+	z-index:500;
+	top:0;
+	max-width:100%;
+	width:100%;
+}
+.milogo{
+	max-width:80px;
+	max-height:80px; 
+}
+.container img{
+	background-color: black;
+}
+
+.imagenAnimacion{
+	transform:scale(1);
+	transition:all 500ms ease-in-out;
+}
+.imagenAnimacion:hover{
+	transform: scale(1.1);
+
+}
+.site-footer{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+footer.back-color{
+	background-color:rgb(20, 20, 20);
+}
+
+.imagenHome {
+   opacity: 1;
+
+
+ }
+
+.imagenHome:hover{
+	opacity: 0.08;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;   }
+
+.div-imagen {
+  display:inline-block;
+  position:relative;
+}
+
+.div-imagen > div {
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:-1;
+  padding:10px;
+  margin:40%;
+  text-align: center;
+  font-size: 2rem;
+  color:black ;
+}
+
+
